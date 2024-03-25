@@ -2,6 +2,10 @@
 
 Este projeto consiste na construção de um aplicativo utilizando Windows Forms e C#, chamado Jogo Gourmet. O objetivo do aplicativo é replicar, da melhor forma possível, o jogo de referência disponibilizado pela empresa Objective como parte de um teste técnico para uma vaga.
 
+## Objetivo do jogo
+
+O jogo tenta adivinhar alguns pratos e tipos de pratos que você tenha pensado. Caso não esteja na lista os pratos e tipos que você pensou, ele pede para inserir o prato que pensou, e assim o jogo recomeça, ate ele acertar, ou até você fechar o jogo. O jogo foi criado utilizando a estrutura de dados do tipo Arvore Binária, de forma a estruturar bem os pratos e seus tipo e subtipos.
+
 ## Funcionalidades
 
 - O aplicativo apresenta telas simples utilizando o Windows Forms.
