@@ -20,14 +20,27 @@ namespace JogoGourmet.App.Forms
 
         private void btn_OkComplete_Click(object sender, EventArgs e)
         {
-            UserInput = txtBox_CustomInput.Text;
-            DialogResult = DialogResult.OK;
-            Close();
+            ReturnInput();
         }
+
 
         private void btn_CancelarComplete_Click(object sender, EventArgs e)
         {
             DialogResult = DialogResult.Cancel;
+            Close();
+        }
+
+        private void txtBox_CustomInput_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if(e.KeyChar == 13)
+            {
+                ReturnInput();
+            }
+        }
+        private void ReturnInput()
+        {
+            UserInput = txtBox_CustomInput.Text;
+            DialogResult = DialogResult.OK;
             Close();
         }
     }

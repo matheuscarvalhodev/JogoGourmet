@@ -56,6 +56,7 @@
             this.btnOK.Text = "Sim";
             this.btnOK.UseVisualStyleBackColor = true;
             this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
+            this.btnOK.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.btnOK_KeyPress);
             // 
             // btnCancel
             // 

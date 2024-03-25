@@ -42,6 +42,7 @@
             this.txtBox_CustomInput.Name = "txtBox_CustomInput";
             this.txtBox_CustomInput.Size = new System.Drawing.Size(352, 26);
             this.txtBox_CustomInput.TabIndex = 2;
+            this.txtBox_CustomInput.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtBox_CustomInput_KeyPress);
             // 
             // btn_CancelarComplete
             // 

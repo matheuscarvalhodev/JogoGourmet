@@ -19,13 +19,26 @@ namespace JogoGourmet.App.Forms
 
         private void btnOK_Click(object sender, EventArgs e)
         {
-            DialogResult = DialogResult.OK;
-            Close();
+            ReturnOk();
         }
+
 
         private void btnCancel_Click(object sender, EventArgs e)
         {
             DialogResult = DialogResult.Cancel;
+            Close();
+        }
+
+        private void btnOK_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == 13)
+            {
+                ReturnOk();
+            }
+        }
+        private void ReturnOk()
+        {
+            DialogResult = DialogResult.OK;
             Close();
         }
     }
