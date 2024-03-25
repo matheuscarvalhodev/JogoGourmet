@@ -22,6 +22,10 @@ Para executar o aplicativo, siga estas etapas:
 3. Abra o projeto utilizando o Visual Studio.
 4. Compile o projeto e execute-o.
 
+## Executável
+
+Poderá também baixar apenas o executável do aplicativo. Abra a pasta Executavel, baixe o arquivo rar, extraia, e inicie! Certifique-se de ter o .NET Framework 4.7.2 instalado em sua máquina.
+
 ## Contribuição
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas ou enviar pull requests para melhorar o aplicativo.
