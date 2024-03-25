@@ -7,6 +7,7 @@ Este projeto consiste na construção de um aplicativo utilizando Windows Forms 
 - O aplicativo apresenta telas simples utilizando o Windows Forms.
 - Implementa o jogo Gourmet de acordo com as especificações fornecidas pela Objective.
 - Possui tratamento para não aceitar valores nulos para os pratos e os tipos de pratos.
+- Tem reaproveitamento das telas para evitar o máximo de duplicidade.
 
 ## Requisitos
 
